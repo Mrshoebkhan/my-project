@@ -13,3 +13,6 @@
 
 #commit : it is the record of change
 # git commit -m "some messege"
+
+# push : upload local content to remote repo
+# git push origin main
