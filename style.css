@@ -21,3 +21,13 @@ h3 {
 .op {
     margin-right: 3.5rem;
 }
+
+@media (max-width : 700px) {
+    h3 {
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+    .op {
+        margin-right: 1rem;
+    }
+}
