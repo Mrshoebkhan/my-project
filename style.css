@@ -1,16 +1,18 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
+
 body {
     background-color: #e9e9e9;
 }
+
 .container {
     height: 3.5rem;
     width: 100%;
-    background:linear-gradient(rgb(165, 165, 248),skyblue);
+    background: linear-gradient(rgb(165, 165, 248), skyblue);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,9 +23,15 @@ h3 {
     margin-left: 3rem;
     font-size: 1.5rem;
 }
+h2 {
+    margin-top: 10px;
+    color: brown;
+}
+
 .op {
     margin-right: 3.5rem;
 }
+
 .btn {
     height: 30px;
     width: 80px;
@@ -33,6 +41,7 @@ h3 {
     margin: .25rem;
     box-shadow: 1px 3px 6px -2px black;
 }
+
 .hero {
     height: 25vh;
     width: 100%;
@@ -40,24 +49,48 @@ h3 {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
+
 .main {
     width: 100%;
-    background-color: transparent;
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
     flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
     text-align: center;
-    padding: 1rem;
 }
-
+.photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.photo {
+    width: 200px;
+    height: 250px;
+    padding: 11px;
+    border-radius: 6px;
+    background-color: antiquewhite;
+    box-shadow: 0px 2px 2px 2px rgb(204, 204, 204);
+}
+.photo img {
+    height: 200px;
+    width: 100%;
+    border-radius: .25rem;
+}
+.photo:hover {
+    scale: 1.1;
+    transition-duration: .5s;
+}
 
 .footer {
     width: 100%;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(43, 43, 43);
     color: white;
     text-align: center;
     height: 1.7rem;
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
 
@@ -66,39 +99,49 @@ h3 {
         margin-left: 1rem;
         font-size: 1.3rem;
     }
+
     .op {
         margin-right: 1rem;
     }
+
     .hero {
         border-bottom-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
     }
+
     .main {
         width: 100%;
         background-color: transparent;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 8px;
+    }
+
+    .photo-container {
         display: flex;
-        flex-wrap: wrap;
-        color: brown;
-        align-items: center;
         justify-content: center;
-    }
-    .box {
-        height: 5rem;
-        width: 5rem;
-        background-color: violet;
-        margin: 10px;
-        border-radius: .50rem;
-    }
-    .box-container {
-        position: relative;
-        top: 3rem;
-        height: 15rem;
-        width: 15rem;
-        background-color: transparent;
-        display: inline-flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: center;
+        gap: 66px;
         flex-wrap: wrap;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .photo {
+        width: 150px;
+        height: 200px;
+        padding: 11px;
+        border-radius: 6px;
+        background-color: antiquewhite;
+        box-shadow: 0px 2px 2px 2px rgb(204, 204, 204);
+    }
+    .photo img {
+        height: 130px;
+        width: 100%;
+    }
+    .photo:hover {
+        scale: 1.1;
+        transition-duration: .5s;
     }
 }
