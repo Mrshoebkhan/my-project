@@ -84,16 +84,6 @@ h2 {
     transition-duration: .5s;
 }
 
-.footer {
-    width: 100%;
-    background-color: rgb(43, 43, 43);
-    color: white;
-    text-align: center;
-    height: 1.7rem;
-    position: absolute;
-    bottom: 0;
-}
-
 @media (max-width : 700px) {
     h3 {
         margin-left: 1rem;
@@ -129,8 +119,8 @@ h2 {
     }
 
     .photo {
-        width: 150px;
         height: 200px;
+        width: 120px;
         padding: 11px;
         border-radius: 6px;
         background-color: antiquewhite;
