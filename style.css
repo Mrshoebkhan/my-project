@@ -23,10 +23,6 @@ h3 {
     margin-left: 3rem;
     font-size: 1.5rem;
 }
-h2 {
-    margin-top: 10px;
-    color: brown;
-}
 
 .op {
     margin-right: 3.5rem;
@@ -48,6 +44,16 @@ h2 {
     background-color: rgb(209, 231, 231);
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    background: url('./photos/Hero.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .quote {
+    position: relative;
+    right: 1rem;
 }
 
 .main {
