@@ -116,6 +116,7 @@ h2 {
         flex-wrap: wrap;
         text-align: center;
         margin-top: 20px;
+        margin-bottom: 2rem;
     }
 
     .photo {
@@ -133,5 +134,20 @@ h2 {
     .photo:hover {
         scale: 1.1;
         transition-duration: .5s;
+    }
+}
+
+@media (max-width : 480) {
+    .photo {
+        height: 180px;
+        width: 100px;
+        padding: 8px;
+        border-radius: 6px;
+        background-color: antiquewhite;
+        box-shadow: 0px 2px 2px 2px rgb(204, 204, 204);
+    }
+    .photo img {
+        height: 100px;
+        width: 100%;
     }
 }
