@@ -34,6 +34,16 @@ h3 {
     background-color: thistle;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.profile img {
+    height: 47px;
+    width: 47px;
+    background-size:auto;
+    border-radius: 50%;
 }
 
 .hero {
@@ -231,5 +241,9 @@ h3 {
         width: 40px;
         background-color: thistle;
         border-radius: 50%;
+    }
+    .profile img {
+        height: 50px;
+        width: 50px;
     }
 }
