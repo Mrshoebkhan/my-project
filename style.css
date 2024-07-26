@@ -33,6 +33,7 @@ h3 {
     width: 50px;
     background-color: thistle;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .hero {
@@ -45,7 +46,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .elem {
@@ -64,7 +64,7 @@ h3 {
     font-size: larger;
     font-family: serif;
     font-weight: bolder;
-
+    cursor: pointer;
 }
 
 .search {
@@ -75,6 +75,7 @@ h3 {
     font-size: large;
     font-family: serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .main {
@@ -125,25 +126,26 @@ h3 {
         margin-right: 1rem;
     }
     .hero input {
-        height: 2rem;
+        height: 3rem;
         width: 15rem;
         padding: 10px;
         border: none;
         border-radius: .25rem;
-        font-size: larger;
+        font-size: 1rem;
         font-family: serif;
         font-weight: bolder;
-    
+        cursor: pointer;
     }
     
     .search {
-        height: 1.5rem;
-        width: 4rem;
+        height: 1.8rem;
+        width: 4.5rem;
         border-radius: .25rem;
         border: none;
         font-size: large;
         font-family: serif;
         font-weight: bold;
+        cursor: pointer;
     }
 
     .main {
