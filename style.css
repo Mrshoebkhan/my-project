@@ -65,6 +65,7 @@ h3 {
     font-family: serif;
     font-weight: bolder;
     cursor: pointer;
+    box-shadow: 1px 2px 10px -1px black;
 }
 
 .search {
@@ -73,9 +74,12 @@ h3 {
     border-radius: .25rem;
     border: none;
     font-size: large;
-    font-family: serif;
+    font-family: sans-serif;
     font-weight: bold;
     cursor: pointer;
+    color: #ffffff;
+    box-shadow: 1px 2px 10px -2px black;
+    background: linear-gradient(rgb(197, 0, 0), rgb(255, 96, 96));
 }
 
 .main {
@@ -142,9 +146,8 @@ h3 {
         width: 4.5rem;
         border-radius: .25rem;
         border: none;
-        font-size: large;
-        font-family: serif;
-        font-weight: bold;
+        font-size:medium;
+        font-family: sans-serif;
         cursor: pointer;
     }
 
@@ -203,7 +206,7 @@ h3 {
         width: 100%;
     }
     .hero input {
-        height: 2rem;
+        height: 3rem;
         width: 15rem;
         padding: 10px;
         border: none;
