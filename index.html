@@ -3,59 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do list</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <h3>Dev World</h3>
-            <div class="op">
-                <div class="profile">
-                    <img src="./photos/sohil.jpg" alt="" class="profile_image">
-                </div>
+    <div class="container">
+        <div class="to-do">
+            <h2>To-Do List</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Write Something...">
+                <button onclick="addtast()">Add</button>
             </div>
+            <ul id="list-container">
+                <!-- <li>Tast 1</li>
+                <li>Tast 2</li>
+                <li>Tast 3</li> -->
+            </ul>
         </div>
-    </nav>
-
-    <section class="hero">
-        <div class="elem">
-        <input type="text" placeholder="Search Something...">
-        <button class="search">Search</button>
     </div>
-    </section>
-
-    <section class="main">
-        <div>
-            <h2>Your Choice! Your Thinking..!</h2>
-        </div>
-
-        <div class="photo-container">
-
-            <div class="photo" id="photo-1">
-            <img src="./photos/m1.jpg" alt="">
-            <h4>Web Development</h4>
-        </div>
-
-        <div class="photo">
-            <img src="./photos/m2.jpg" alt="">
-            <h4>Machine Learning</h4>
-        </div>
-
-        <div class="photo">
-            <img src="./photos/m3.jpg" alt="">
-            <h4>App Development</h4>
-        </div>
-
-        <div class="photo">
-            <img src="./photos/m4.jpg" alt="">
-            <h4>Cloud Computing</h4>
-        </div>
-
-        </div>
-    </section>
-    <div>
-</div>
 </body>
 <script src="script.js"></script>
 </html>
